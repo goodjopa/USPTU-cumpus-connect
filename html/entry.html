@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Campus Connect</title>
+  <link rel="stylesheet" href="../css/entrys.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../icon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2cc2da">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+  <header>
+  <div class="containerentry">
+     <div class="orange">  
+        <div class="peanut">
+          <img src="../icon/doughnut.png" width = "200px"; height = "200px">
+        </div>
+      </div>
+      
+
+    <div class="login">
+      Регистрация
+    </div>
+    <button class="cross"> 
+      <img src="../icon/Group 6.png">
+    </button>
+    <form action="http://localhost/UsptuCamCon/php-files/reg.php" method="post">
+      <input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+      <input type="text" class="form-controlfam" name="surname" id="surname" placeholder="Фамилия">
+      <input type="email" class="form-controlemail" name="email" id="email" placeholder="E-mail">
+      <input type="password" class="form-controlpas" name="password" id="password" placeholder="Пароль">
+      <input type="password" class="form-controlrepas" name="confirm" id="confirm" placeholder="Повторите пароль">
+      <button class="logbutton">Зарегистрироваться</button>
+    </form>
+    <form action="login.html">
+    <div class="afterreg">
+      Уже есть аккаунт?
+      <button class="afterregbut">
+        Войти
+      </button>
+    </div>
+    </form>
+  </div>
+</header>
+</body>
+</html>

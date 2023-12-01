@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Campus Connect</title>
+  <link rel="stylesheet" href=" ">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../icon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2cc2da">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="../css/cri.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="wrapper">
+      <h1 class="word">Создай ивент</h1>
+      <form action="../php-files/request-to-create.php" method="post" id="forma"> 
+          <input id="taskInput1" type="text" name="name" class="form-control5" placeholder="Название(не более 10 букв)" required>
+          <input id="taskInput2" type="number" name="number" class="form-control1" placeholder="Количество мест" required>
+          <input id="taskInput3" type="datetime-local" name="datetime" class="form-control2" placeholder="Дата и время" required>  
+          <select name="interes" class="form-control4" >
+            <option value="" selected>Интересы</option>
+            <option value="1">Спорт</option>
+            <option value="2">Музыка</option>
+            <option value="3">Общежитие</option>
+            <option value="4">Мероприятия</option>
+            <option value="5">Кино</option>
+          </select>
+
+           
+        <div class="card bg-light" >
+          <div class="card-body">
+              <div class="form-group">
+                <input id="taskInput4" type="text" name = "other" class="form-control" placeholder="Описание" required>
+              </div>
+              <button type="submit" class="btn">Добавить</button>
+              <a href="http://localhost/UsptuCamCon/html/main.php">
+                <img class="icon" src="../icon/Group 6.png"/>
+              </a> 
+              </div>
+              </div> 
+            </form>
+          </div>
+</header>
+</body>
+</html>

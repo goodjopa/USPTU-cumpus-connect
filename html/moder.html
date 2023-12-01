@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/moder.css">
+    <title>USPTU campus connect</title>
+</head>
+<body>
+    <header>
+        <img src="../icon/eco.png" width = "60px"; height = "60px">
+          <nav class="navigation">
+              <img src="../icon/doughnut (6).png" width = "60px"; height = "60px" class= "use-pic" onclick="toggleMenu()">
+              <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                  <div class="usr-info">
+                    <a href=" http://localhost/UsptuCamCon/html/anketa.html" class="sub-menu-link">
+                      <p>Заполнить анкету</p>
+                      <span>></span>
+                    </a>
+                    <a href="" class="sub-menu-link">
+                      <p>Посмотреть ивенты</p>
+                      <span>></span>
+                    </a>
+                    <a href="http://localhost/UsptuCamCon/html/create.html" class="sub-menu-link">
+                      <p>Создать ивент</p>
+                      <span> > </span>
+                    </a>
+                    <a href="http://127.0.0.1:5501/html/check.html" class="sub-menu-link">
+                        <p>Проверить ивент</p>
+                        <span> > </span>
+                      </a>
+                    <a href="http://localhost/UsptuCamCon/php-files/exit.php" class="sub-menu-link">
+                      <p>Выход</p>
+                      <span>></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </header>
+        <div class="campus_connect" id="first">
+            USPTU <br/>campus connect
+        </div>
+        <div class="under_connect">
+          Сайт для знакомств и встреч. 
+          <br/>Участвуй! Создавай! Дружи!
+        </div>
+          <div class="union">
+            <img src="../icon/union.png" width = "600px"; height = "500px">
+          </div>
+          <script>
+            let subMenu = document.getElementById("subMenu")
+    
+            function toggleMenu(){
+              subMenu.classList.toggle("open-menu");
+              }
+          </script>
+</body>
+</html>

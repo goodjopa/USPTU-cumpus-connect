@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+    top: 150px;
+    left: 550px;
+    width: 330px; 
+    height: 400px; 
+    position: relative; 
+    background: #F9F9F9; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30); 
+    border-radius: 24px; 
+    overflow: hidden;
+}
+.word{
+    left: 20px;
+    top: 50px;
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Nunito; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.form-control{
+  width: 288px; 
+  padding: 12px; 
+  left: 20px; 
+  top: 90px; 
+  position: absolute; 
+  background: white; 
+  border-radius: 12px; 
+  border: 2px #F2F2F3 solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+.form-control1{
+  width: 288px; 
+  padding: 12px; 
+  left: 20px; 
+  top: 140px; 
+  position: absolute; 
+  background: white; 
+  border-radius: 12px; 
+  border: 2px #F2F2F3 solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+.form-control2{
+  width: 288px; 
+  padding: 12px; 
+  left: 20px; 
+  top: 190px; 
+  position: absolute; 
+  background: white; 
+  border-radius: 12px; 
+  border: 2px #F2F2F3 solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+.form-control3{
+  width: 288px; 
+  padding: 12px; 
+  left: 20px; 
+  top: 240px; 
+  position: absolute; 
+  background: white; 
+  border-radius: 12px; 
+  border: 2px #F2F2F3 solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+.form-control4{
+  width: 288px; 
+  padding: 12px; 
+  left: 20px; 
+  top: 290px; 
+  position: absolute; 
+  background: white; 
+  border-radius: 12px; 
+  border: 2px #F2F2F3 solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+}
+.icon{
+  left: 280px; 
+  top: 10px; 
+  position: absolute; 
+}
+.logbut{
+  left: 20px; 
+  top: 350px; 
+  position: absolute;
+  width: 288px; 
+  height: 40px; 
+  padding-left: 32px; 
+  padding-right: 32px; 
+  padding-top: 11px; 
+  padding-bottom: 11px; 
+  background: #FF7020; 
+  border-radius: 12px; 
+  border: none;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  color: white;
+  font-size: 16px;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+}

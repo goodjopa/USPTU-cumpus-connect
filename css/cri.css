@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.wrapper{
+    position: fixed;
+    top: 100px;
+    left: 550px;
+    width: 334px; 
+    height: 400px; 
+    position: relative; 
+    background: #F9F9F9; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10); 
+    border-radius: 24px; 
+    overflow: hidden;
+  }
+  .form-control5{
+    width: 280px; 
+    height: 20px; 
+    padding: 12px;
+    left: 15px; 
+    top: 70px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 12px; 
+    border: 1px #F2F2F3 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+}
+.form-control1{
+    width: 280px; 
+    height: 20px; 
+    padding: 12px;
+    left: 15px; 
+    top: 120px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 12px; 
+    border: 1px #F2F2F3 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+  }
+  .form-control2{
+    width: 280px; 
+    height: 20px; 
+    padding: 12px;
+    left: 15px; 
+    top: 170px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 12px; 
+    border: 1px #F2F2F3 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+  }
+  .form-control4{
+    width: 305px; 
+    height: 40px; 
+    padding: 12px;
+    left: 15px; 
+    top: 220px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 12px; 
+    border: 1px #F2F2F3 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+  }
+  .form-control{
+    width: 280px; 
+    height: 20px; 
+    padding: 12px;
+    left: 15px; 
+    top: 270px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 12px; 
+    border: 1px #F2F2F3 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+  }
+  .btn{
+    width: 305px; 
+    height: 40px; 
+    padding-left: 32px; 
+    padding-right: 32px; 
+    padding-top: 11px; 
+    padding-bottom: 11px; 
+    left: 15px; 
+    top: 325px; 
+    position: absolute; 
+    background: #FF7020; 
+    border-radius: 12px; 
+    border: none;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 16px;
+    word-wrap: break-word
+  }
+  .icon{
+    width: 30px;
+    height: 30px;
+    left: 290px;
+    top: 14px;
+    position: absolute;
+    transform-origin: 0 0;
+    background:#F9F9F9;
+    border: none; 
+  }
+.word{
+    left: 20px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Nunito; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}

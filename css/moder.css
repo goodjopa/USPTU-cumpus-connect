@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.sub-menu-wrap{
+    right: 5%; 
+    top: 100%; 
+    position: absolute;
+    width: 220px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #F9F9F9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.usr-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+ .buttonLogin{
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(102deg, #F52557 0%, #ED1C4E 100%);
+    box-shadow: 0px 70px 83px rgba(242, 34, 84, 0.42);
+    border: none;
+    outline: none;
+    border-radius: 110px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.union{
+    right: 60px; 
+    top: 150px; 
+    position: absolute;
+}
+.buttonLogin:hover{
+    background: linear-gradient(102deg, #F52557 0%, #ED1C4E 100%);
+    color: black;
+}
+body{
+    width: 1440px; 
+    height: 720px; 
+    position: relative;
+    background: linear-gradient(124deg, #FFAB08 0%, #E7AF52 100%);
+}
+.campus_connect{
+    color: black; 
+    width: 450px; 
+    height: 307px; 
+    left: 215px; 
+    top: 267px; 
+    position: absolute;
+    font-size: 50px; 
+    font-family: Montserrat; 
+    font-weight: 900; 
+    word-wrap: break-word;
+}
+.under_connect{
+    left: 215px; 
+    top: 410px; 
+    position: absolute;
+    width: 413px; 
+    height: 102px; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 35.60px; 
+    word-wrap: break-word;
+}
+.navigation_club{
+    left: 135px; 
+    top: 523px; 
+    position: absolute;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 40px;
+    font-family: Montserrat; 
+}
+.navigation_club .buttonClub{
+    width: 265px; 
+    height: 67px; 
+    position: relative; 
+    background: linear-gradient(102deg, #F52557 0%, #ED1C4E 100%); 
+    box-shadow: 0px 7px 35px rgba(242, 34, 84, 0.42); 
+    border-radius: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation_club .buttonClub:hover{
+    background: linear-gradient(102deg, #F52557 0%, #ED1C4E 100%);
+    color: black;
+}
